@@ -6,19 +6,19 @@
 from inputimeout import inputimeout
 import random
 import time
-char = ["a", "b", "c", "d", "e", "f", "g","h", "i","j","k"]
+char = ["a", "b", "c", "d", "e", "f", "g","h", "i","j","k","l","m","n","o","p","q","r","s","t","u",'v',"w","x","y","z"]
 tIme = 36
 level = 0    
 #Main Program Function
 def program(char,tIme,level):
     #Program that make all the random char
-    char1 = char[random.randrange(0,11)]
-    char2 = char[random.randrange(0,11)]
-    char3 = char[random.randrange(0,11)]
-    char4 = char[random.randrange(0,11)]
-    char5 = char[random.randrange(0,11)]
-    char6 = char[random.randrange(0,11)]
-    char7 = char[random.randrange(0,11)]
+    char1 = char[random.randrange(0,25)]
+    char2 = char[random.randrange(0,25)]
+    char3 = char[random.randrange(0,25)]
+    char4 = char[random.randrange(0,25)]
+    char5 = char[random.randrange(0,25)]
+    char6 = char[random.randrange(0,25)]
+    char7 = char[random.randrange(0,25)]
     ans = char1 + char2 + char3 + char4 + char5 + char6 + char7
     #the input,Lose,time limit and Level Program
     try:
